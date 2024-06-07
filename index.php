@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <!--Шапка сайта-->
+    <!--Шапка сайта header-->
     <header>
         <div class="contener">
             <div style="display: flex;">
@@ -31,8 +31,8 @@
         </div>
     </header>
 
-    <!--Баннер-->
-    <div class="baner">
+    <!--Баннер Hero Block-->
+    <div class="Hero Block">
         <div class="contener">
             <div class="padding">
                 <h1>3 320 000 ₽ в год!</h1>
@@ -43,8 +43,8 @@
         </div>
     </div>
     
-    <!--Контракт-->
-    <div class="products">
+    <!--Контракт Payouts-->
+    <div class="Payouts">
         <div class="contener">
             <div class="padding">
                 <h1>При заключении контракта о прохождении<br>военной службы вам гарантируется<br>1 000 000 ₽</h1>
@@ -68,8 +68,8 @@
         </div>
     </div>
 
-    <!--Дополнительные выплаты-->
-    <div class="products">
+    <!--Дополнительные выплаты Additional Payouts-->
+    <div class="Additional Payouts">
         <div class="contener">
             <div class="padding">
                 <h1>Дополнительные выплаты</h1>
@@ -112,8 +112,8 @@
     </div>
     <br></br>
 
-    <!--Льготы и гарантии-->
-    <div class="banerr">
+    <!--Льготы и гарантии Social Benefits-->
+    <div class="Social Benefits">
         <div class="contener">
             <h1>Социальные льготы и гарантии</h1>
             <div class="padding">
@@ -130,7 +130,7 @@
         </div>
     <br></br>
     </div>
-    <div class="banerr">
+    <div class="Social Benefits">
         <div class="contener">
             <div class="padding">
                 <!--Его семье-->
@@ -143,8 +143,8 @@
         </div>
     </div>
 
-<!--Вакансии-->
-<div class="product">
+<!--Вакансии Vacancies-->
+<div class="Vacancies">
     <div class="contener">
         <!--<div class="product_top">
             <div class="product_top_left">
@@ -176,8 +176,8 @@
     </div>
 </div>
 
-<!--Контракт-->
-<div class="kontrakt">
+<!--Контракт Сontract Terms-->
+<div class="Сontract Terms">
     <div class="contener">
         <h1>Как заключить контракт на военную службу</h1>
         
@@ -199,8 +199,8 @@
     </div>  
 </div>
 
-<!--Регистрация-->
-<div class="product">
+<!--Регистрация CTA-->
+<div class="CTA">
     <div class="contener">
         <div class="product_top">
             <div class="product_top_left">
@@ -249,15 +249,15 @@
     </div>
 </div>
 
-<!--Бегущая строка-->
-<div class="company">
+<!--Бегущая строка Separator-->
+<div class="Separator">
     <div class="contener">
             <marquee><h1>Служба по контракту - престижная мужская работа</h1></marquee>
             <br><br>
     </div>  
 </div>
 
-<!--Реклама-->
+<!--Реклама Frame 82-->
 <div class="company">
     <div class="contener">
             <h1>Хотите служить в <br> определённой части?</h1>
@@ -268,7 +268,7 @@
     </div>  
 </div>
 
-<!--Другой регион-->
+<!--Другой регион Frame 81-->
 <div class="company">
     <div class="contener">
             <h1>Если вы из другого региона,вам полагается</h1>
@@ -290,8 +290,8 @@
     </div>  
 </div>
 
-<!--Баннер для женщин-->
-    <div class="baner">
+<!--Предложение для женщин Offer to Nurses-->
+    <div class="Offer to Nurses">
         <div class="contener">
             <div class="padding">
                 <h1>предложение для женщин-<br>медработников!</h1>
@@ -309,7 +309,7 @@
         </div>
     </div>
     
-<!--Часто задаваемые вопросы-->
+<!--Часто задаваемые вопросы FAQ-->
 <div class="FAQ">
         <div class="contener">
             <div class="padding">
@@ -333,7 +333,7 @@
         </div>
 </div>
     
-<!--Подвал-->
+<!--Подвал Footer-->
 <div class="footer-middle">
     <div class="footer-menu clearfix">
         <h1>центральный и комсомольский р-н</h1>
@@ -346,8 +346,6 @@
             <li><a href="">ул.Ворошилова,2а</a></li>  
             <li><a href="">+7(917)117-17-40</a></li>
         </ul>
-        
-      
     </div>
 
     <div class="footer-menu">
@@ -367,7 +365,7 @@
     </div> 
 </div>
         
-    <!-- <?php include("style.php");?> -->
+<!-- <?php include("style.php");?> -->
     
 </body>
 </html>
