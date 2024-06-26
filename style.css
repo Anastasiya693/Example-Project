@@ -1,0 +1,289 @@
+<style>
+body
+{
+  font-family: "Wix Madefor Text", sans-serif;
+  min-width: 320px;
+  margin: 0;
+  background: #212121;
+  color: white;
+}
+html, body 
+{
+    height: 100%;
+}
+header
+{
+    background: -webkit-linear-gradient(left, #212121, #212121);
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 64px;
+}
+button 
+{
+  padding: 15px 25px;
+  border: none;
+  background: #c32b26;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  color: white;
+}
+offic button 
+{
+  padding: 15px 25px;
+  border: none;
+  background: #c32b26;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  color: white;
+}
+header .contener 
+{
+  display: flex;
+  justify-content: space-between; /*для кнопок*/
+  width: 85%; /*отступ по краям*/
+  margin: 0 auto; /*отступ справа*/
+  padding: 40px 0; /*отступ сверху*/
+}
+header .contener .logo 
+{
+  margin-right: 50px;
+}
+header .contener .menu ul 
+{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+header .contener .menu ul li a 
+{
+  text-decoration: none;
+  padding: 0 30px; /*расстояние между словами*/
+  color: white;
+  font-size: 25px;
+  font-family: "Type or choose";
+}
+header .contener .menu ul li:first-child a 
+{
+  padding-left: 0;
+}
+
+/*банер Hero Block*/
+.HeroBlock .contener 
+{
+  background-image: url('img/Hero Block.png'); background-repeat: no-repeat
+  width: 80px; /*ширина*/
+  height: 890px; /*высота*/
+  margin: 0 auto;
+  vertical-align: top;
+  background-repeat: no-repeat;
+}
+.HeroBlock .contener .padding 
+{
+  padding: 100px;
+}
+.HeroBlock .contener .padding h1 
+{
+  font-family: "Wix Madefor Display";
+  color: white;
+  margin: 0 auto;
+  font-size: 96px;
+}
+.HeroBlock .contener .padding p 
+{
+  font-family: "Wix Madefor Display";
+  font-size: 64px;
+}
+
+/*Payouts контракт*/
+.Payouts .contener h1 
+{
+    text-align: center;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 64px;
+}
+.price 
+{
+    color: #C32B26;
+}
+.Payouts .contener h2
+{
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 48px;
+}
+.Payouts .contener p
+{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 24px;
+    
+    /*border: 1px solid red; /* Толщина рамки в пикселах,
+    padding: 5px; /* Расстояние от текста до рамки */
+    /*background: #c32b26;*/
+}
+
+/*Дополнительные выплаты Additional Payouts*/
+.AdditionalPayouts td
+{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 24px;
+}
+.AdditionalPayouts h1
+{
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 64px;
+}
+.AdditionalPayouts payment
+{
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 48px;
+    color: #c32b26;
+}
+
+/*Льготы и гарантии Social Benefits*/
+.SocialBenefits img
+{
+    width: 25px; /*ширина*/
+    height: 25px;  /*высота*/
+}
+.SocialBenefits h1
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+}
+.SocialBenefits h2
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 48px;
+    color: #c32b26;
+}
+.SocialBenefits p
+{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 24px;
+}
+
+/*Вакансии*/
+.Vacancies h1
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+}
+.Vacancies h2
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 48px;
+    color: #c32b26;
+}
+.Vacancies p
+{
+    font-family: "Wix Madefor Text", Bold;
+    font-size: 24px;
+}
+
+/*Контракт СontractTerms*/
+
+.СontractTerms h1
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+}
+.СontractTerms h2
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 48px;
+    color: #c32b26;
+}
+.СontractTerms p
+{
+    font-family: "Wix Madefor Text", Bold;
+    font-size: 24px;
+}
+
+/*Регистрация CTA*/
+.CTA h1
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+}
+.CTA button 
+{
+  padding: 15px 25px;
+  border: none;
+  background: #c32b26;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  color: white;
+}
+
+/*Бегущая строка Separator*/
+.Separator marquee
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+    border: 1px solid red; /* Толщина рамки в пикселах,
+    padding: 5px; /* Расстояние от текста до рамки */
+    background: #c32b26;
+    color: #212121;
+}
+/*FAQ*/
+.FAQ h1
+{
+    font-family: "Wix Madefor Display", Bold;
+    font-size: 64px;
+}
+/*Подвал Footer*/
+.Footer h1
+{
+font-family: "Wix Madefor Display", Bold;
+font-size: 48px;
+}
+.footer-menu label
+{
+    color: #d3d3d3;
+    float: left;
+    width: 219px;
+    margin-right: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+.Footer a
+{
+font-family: "Wix Madefor Text", Bold;
+font-size: 24px;
+}
+.footer-middle
+{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-menu h3
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-menu li
+{
+    list-style: none;
+}
+.footer-menu li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-menu li a:hover /*цвет при навадении на текст*/
+{
+    color: #FFFFFF;
+}
+.footer-menu
+{
+    float: left;
+    width: 219px;
+    margin-right: 18px;
+}
+</style>
