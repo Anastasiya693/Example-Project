@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
     <!--Шапка сайта header-->
     <header>
         <div class="contener">
@@ -24,19 +23,23 @@
                 </div>
             </div>
             <div class="right_header">
-                <img src="img/search.svg" alt="">
-                <button>Официальный сайт</button>
+                <div class="logo">
+                  <!--<img src="img/телефон.png" alt="">-->
+                </div>
                 <button>Хочу служить</button>
+                <div class="offic">
+                  <button>Официальный сайт</button>
+                </div>
             </div>
         </div>
     </header>
 
     <!--Баннер Hero Block-->
-    <div class="Hero Block">
+    <div class="HeroBlock">
         <div class="contener">
             <div class="padding">
                 <h1>3 320 000 ₽ в год!</h1>
-                <p>1000 00 ₽ в первый месяц, <br> берем с отношением</p>
+                <p>1000 000 ₽ в первый месяц, <br> берем с отношением</p>
                 <button>Оставить заявку</button>
                 <button>Оставить заявку</button>
             </div>
@@ -47,20 +50,26 @@
     <div class="Payouts">
         <div class="contener">
             <div class="padding">
-                <h1>При заключении контракта о прохождении<br>военной службы вам гарантируется<br>1 000 000 ₽</h1>
+                <h1>
+                    При заключении контракта о прохождении<br>военной службы вам гарантируется<br>
+                    <div class="price">
+                        1 000 000 ₽
+                    </div>
+                </h1>
+                
                 <h2>350 000 ₽</h2>
                 <p>Единовременная выплата и соответствие с постановлением правительства Самарской области</p>
                 
-                <h1>200 000 ₽</h1>
+                <h2>200 000 ₽</h2>
                 <p>Единовременная городская выплата для заключивших контракт в г. Тольятти</p>
                 
-                <h1>195 000 ₽</h1>
+                <h2>195 000 ₽</h2>
                 <p>Единовременная выплата от Министерства Обороны Российской Федерации</p>
                 
-                <h1>55 000 ₽</h1>
+                <h2>55 000 ₽</h2>
                 <p>Иные выплаты от Министерства Обороны Российской Федерации</p>
                 
-                <h1>ОТ 210 000 ₽</h1>
+                <h2>ОТ 210 000 ₽</h2>
                 <p>Денежное довольствие ежемесячно во время службы</p>
                 <p>В зависимости от воинского звания, должности и выслуги лет, а также при выполнении специальных задач</p>
                 
@@ -69,42 +78,58 @@
     </div>
 
     <!--Дополнительные выплаты Additional Payouts-->
-    <div class="Additional Payouts">
+    <div class="AdditionalPayouts">
         <div class="contener">
             <div class="padding">
                 <h1>Дополнительные выплаты</h1>
                 <table>
                     <tr>
                         <td>За каждые сутки активных наступательных действий</td>
-                        <td>8 000 ₽</td>
+                        <div class="payment">
+                            <td>8 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За каждый километр продвижения в составе штурмовой группы</td>
-                        <td>50 000 ₽</td>
+                        <div class="payment">
+                            <td>50 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За уничтожение самоходной и лёгкой бронетехники, ПВО или беспелотника</td>
-                        <td>50 000 ₽</td>
+                        <div class="payment">
+                            <td>50 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За уничтожение самоходной и лёгкой бронетехники, ПВО или беспелотника</td>
-                        <td>100 000 ₽</td>
+                        <div class="payment">
+                            <td>100 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За сбитый вертолёт</td>
-                        <td>200 000 ₽</td>
+                        <div class="payment">
+                            <td>200 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За уничтоженный самолёт или пусковую установку HIMARS, "Точка У"</td>
-                        <td>300 000 ₽</td>
+                        <div class="payment">
+                            <td>300 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За уничтожение танка Leopard, Abrams, Challanger</td>
-                        <td>500 000 ₽</td>
+                        <div class="payment">
+                            <td>500 000 ₽</td>
+                        </div>
                     </tr>
                     <tr>
                         <td>За захват танка Leopard, Abrams, Challanger</td>
-                        <td>1 000 000 ₽</td>
+                        <div class="payment">
+                            <td>1 000 000 ₽</td>
+                        </div>
                     </tr>
                 </table>
             </div>
@@ -113,36 +138,36 @@
     <br></br>
 
     <!--Льготы и гарантии Social Benefits-->
-    <div class="Social Benefits">
+    <div class="SocialBenefits">
         <div class="contener">
             <h1>Социальные льготы и гарантии</h1>
             <div class="padding">
                 <!--Контрактнику-->
                 <h2>Контрактнику</h2>
-                <p>Возможность приобрести жилье за счёт Минобороны через накопительно-ипотечную систему</p>
-                <p>Служебное жильё или компенсация за наем</p>
-                <p>Бесплатное обследование, лечение и реабилитация в военно-медецинском учереждении</p>
-                <p>Страхование жизни и здоровья</p>
-                <p>Двухнедельный оплачиваемый отпуск не реже 1 раза в полгода</p>
-                <p>Военная пенсия после 20-ти лет службы</p>
-                <p>Региональные меры поддержки</p>
+                <p><img src="img/галочка.png" alt="">Возможность приобрести жилье за счёт Минобороны через накопительно-ипотечную систему</p>
+                <p><img src="img/галочка.png" alt="">Служебное жильё или компенсация за наем</p>
+                <p><img src="img/галочка.png" alt="">Бесплатное обследование, лечение и реабилитация в военно-медецинском учереждении</p>
+                <p><img src="img/галочка.png" alt="">Страхование жизни и здоровья</p>
+                <p><img src="img/галочка.png" alt="">Двухнедельный оплачиваемый отпуск не реже 1 раза в полгода</p>
+                <p><img src="img/галочка.png" alt="">Военная пенсия после 20-ти лет службы</p>
+                <p><img src="img/галочка.png" alt="">Региональные меры поддержки</p>
             </div>
         </div>
-    <br></br>
+    <br>
     </div>
-    <div class="Social Benefits">
+    <div class="SocialBenefits">
         <div class="contener">
             <div class="padding">
                 <!--Его семье-->
                 <h2>Его семье</h2>
-                <p>Путевки в лагеря отдыха для детей</p>
-                <p>Квоты для обучения детей в ВУЗах</p>
-                <p>Дополнительные меры поддержки в зависимости от региона</p>
-                <p>Региональные меры поддержки</p>
+                <p><img src="img/галочка.png" alt="">Путевки в лагеря отдыха для детей</p>
+                <p><img src="img/галочка.png" alt="">Квоты для обучения детей в ВУЗах</p>
+                <p><img src="img/галочка.png" alt="">Дополнительные меры поддержки в зависимости от региона</p>
+                <p><img src="img/галочка.png" alt="">Региональные меры поддержки</p>
             </div>
         </div>
     </div>
-
+<br>
 <!--Вакансии Vacancies-->
 <div class="Vacancies">
     <div class="contener">
@@ -175,9 +200,9 @@
             </div>
     </div>
 </div>
-
+<br></br>
 <!--Контракт Сontract Terms-->
-<div class="Сontract Terms">
+<div class="СontractTerms">
     <div class="contener">
         <h1>Как заключить контракт на военную службу</h1>
         
@@ -212,7 +237,6 @@
                 </div>
                     <div class="product_top_right_price">
                         <div class="product_top_right_price_left">
-                            
                                 <div class="price">
                                     <div class="contener">
                                         <form action="">
@@ -235,7 +259,6 @@
                                         </form>
                                     </div>
                                 </div>
-
                             <div class="product_top_right_price_left_btn">
                                 <input type="radio">
                                 Да,мне 18 или более лет
@@ -252,6 +275,7 @@
 <!--Бегущая строка Separator-->
 <div class="Separator">
     <div class="contener">
+            <br><br>
             <marquee><h1>Служба по контракту - престижная мужская работа</h1></marquee>
             <br><br>
     </div>  
@@ -334,38 +358,36 @@
 </div>
     
 <!--Подвал Footer-->
-<div class="footer-middle">
-    <div class="footer-menu clearfix">
-        <h1>центральный и комсомольский р-н</h1>
-        <ul>
-            <li><a href="">ул.Ушакова</a></li>
-            <li><a href="">+7(8482)48-64-50</a></li>
-        </ul>
-        <h1>автозаводской р-н</h1>
-        <ul>
-            <li><a href="">ул.Ворошилова,2а</a></li>  
-            <li><a href="">+7(917)117-17-40</a></li>
-        </ul>
+<div class="Footer">
+    <div class="footer-middle">
+        <div class="footer-menu clearfix">
+            <h1>центральный и комсомольский р-н</h1>
+            <ul>
+                <li><a href="">ул.Ушакова</a></li>
+                <li><a href="">+7(8482)48-64-50</a></li>
+            </ul>
+            <h1>автозаводской р-н</h1>
+            <ul>
+                <li><a href="">ул.Ворошилова,2а</a></li>  
+                <li><a href="">+7(917)117-17-40</a></li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                    <li><a href="">Выплаты</a></li>
+                    <li><a href="">Льготы</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Условия контракта</a></li>
+            </ul>
+        </div>
+        <div class="label">
+            <ul>
+                    <li><a href="">Политика конфиденциальности</a></li>
+                    <li><a href="">Разработано Студией Сайтов</a></li>
+            </ul>
+        </div> 
     </div>
-
-    <div class="footer-menu">
-        <ul>
-                <li><a href="">Выплаты</a></li>
-                <li><a href="">Льготы</a></li>
-                <li><a href="">Вакансии</a></li>
-                <li><a href="">Условия контракта</a></li>
-        </ul>
-    </div>
-
-    <div class="footer-menu">
-        <ul>
-                <li><a href="">Политика конфиденциальности</a></li>
-                <li><a href="">Разработано Студией Сайтов</a></li>
-        </ul>
-    </div> 
 </div>
-        
-<!-- <?php include("style.php");?> -->
-    
+<?php include("style.css");?>
 </body>
 </html>
